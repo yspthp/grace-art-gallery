@@ -394,5 +394,77 @@ export const works = [
     "pixelWidth": 1024,
     "pixelHeight": 1024,
     "sha256": "652a74c4a02f5c9e19b0c96d93764d609f1b92aed89b935e30a677552dad0b7f"
+  },
+  {
+    "id": "45",
+    "file": "art-45.jpg",
+    "thumb": "thumbs/art-45.jpg",
+    "source": "Gemini_Generated_Image_bhxtwqbhxtwqbhxt.jpg",
+    "pixelWidth": 846,
+    "pixelHeight": 846,
+    "sha256": "78403512f85277f95093a4b1c54610a181ab6985e158ba1f150349197634873e"
+  },
+  {
+    "id": "46",
+    "file": "art-46.jpg",
+    "thumb": "thumbs/art-46.jpg",
+    "source": "Gemini_Generated_Image_jslfm2jslfm2jslf(1).jpg",
+    "pixelWidth": 423,
+    "pixelHeight": 423,
+    "sha256": "f462022b42ede822acb9fd9700271edcc56511a0a5468a3fce30896d13b25f9f"
+  },
+  {
+    "id": "47",
+    "file": "art-47.jpg",
+    "thumb": "thumbs/art-47.jpg",
+    "source": "Gemini_Generated_Image_jslfm2jslfm2jslf.jpg",
+    "pixelWidth": 431,
+    "pixelHeight": 431,
+    "sha256": "9f22c0be48e0272db33e0d49b8a5e7fb98d8140da5effac2e46ca93cebbd4084"
+  },
+  {
+    "id": "48",
+    "file": "art-48.jpg",
+    "thumb": "thumbs/art-48.jpg",
+    "source": "Gemini_Generated_Image_pp5bibpp5bibpp5b(1).jpg",
+    "pixelWidth": 850,
+    "pixelHeight": 850,
+    "sha256": "ecbbc159329bf50e6fe18ceb37e92e0504ea690aec2c880637162669d68f2f30"
+  },
+  {
+    "id": "49",
+    "file": "art-49.jpg",
+    "thumb": "thumbs/art-49.jpg",
+    "source": "Gemini_Generated_Image_rfrpu1rfrpu1rfrp.jpg",
+    "pixelWidth": 845,
+    "pixelHeight": 845,
+    "sha256": "7df525bca0d82cb9b7be5904d03d2d777fabcb6332dd030d5e0f3a1908332348"
+  },
+  {
+    "id": "50",
+    "file": "art-50.jpg",
+    "thumb": "thumbs/art-50.jpg",
+    "source": "Gemini_Generated_Image_shd8kcshd8kcshd8.jpg",
+    "pixelWidth": 838,
+    "pixelHeight": 838,
+    "sha256": "72f99a9a6a90bdafcc41ff995b2a5c0ac365617931c800b2a6eed273d16225a6"
+  },
+  {
+    "id": "51",
+    "file": "art-51.jpg",
+    "thumb": "thumbs/art-51.jpg",
+    "source": "Gemini_Generated_Image_tzh5cetzh5cetzh5.jpg",
+    "pixelWidth": 834,
+    "pixelHeight": 834,
+    "sha256": "ebbf1487caa22b9996484f786876839b0bc37c8fcaec132394f36f0584ea4097"
+  },
+  {
+    "id": "52",
+    "file": "art-52.jpg",
+    "thumb": "thumbs/art-52.jpg",
+    "source": "Gemini_Generated_Image_xgu0tixgu0tixgu0.jpg",
+    "pixelWidth": 851,
+    "pixelHeight": 851,
+    "sha256": "811a95aafd80ba964bcbad7fb93dacc621da8117633a1d55a42901ec387d934e"
   }
 ];

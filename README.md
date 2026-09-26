@@ -1,6 +1,6 @@
 # 恩慈畫室
 
-44 paintings in a first-person Three.js gallery.
+52 paintings in a first-person Three.js gallery.
 
 ## Controls
 - Desktop: WASD / arrows to move, drag to look, click a nearby painting to enlarge.
@@ -15,3 +15,4 @@ All JavaScript and dependencies use relative URLs, so project Pages paths work.
 The Three.js license is included under vendor/three/LICENSE.
 
 No artwork descriptions or interpretations are added.
+

@@ -10,6 +10,7 @@ const gallery=createLayout(catalog);
 const works=gallery.works;
 
 const $=s=>document.querySelector(s);
+$('#artwork-count').textContent=`恩慈畫室 · ${works.length} 幅作品`;
 const canvas=$('#scene');
 const scene=new THREE.Scene();
 scene.background=new THREE.Color('#e7e8db');
