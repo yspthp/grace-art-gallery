@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9df">
+  <title>恩慈畫室</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <canvas id="scene" aria-label="第一身三維畫廊：拖曳望四周，方向鍵或 WASD 行走" tabindex="0"></canvas>
+  <header>
+    <div class="identity"><span class="mark">◒</span><div><h1>恩慈畫室</h1></div></div>
+    <div class="header-right"><button id="help" aria-label="操作說明">?</button></div>
+  </header>
+  <section id="welcome">
+    <h2>恩慈畫室</h2>
+    <button class="primary" id="enter" disabled>正在載入… <span>↗</span></button>
+    <p class="small">WASD 移動 · 拖曳環視 · 點擊畫作放大</p>
+  </section>
+  <div id="crosshair" hidden>+</div>
+  <button id="art-hint" hidden>查看作品 <kbd>E</kbd></button>
+  <div id="notice" role="status"></div>
+  <footer>
+    <div class="room-label"><span class="dot"></span><span>恩慈畫室 · 44 幅作品</span></div>
+    <nav aria-label="畫廊控制">
+      <button id="view-one">作品 01</button><button id="view-two">作品 02</button><button id="browse">全部作品</button>
+      <span class="divider"></span>
+      <button id="reset">返回入口</button>
+      <button id="quality" aria-label="切換畫質">畫質：高</button>
+    </nav>
+    <div class="instructions"><kbd>W A S D</kbd> 移動 <span>／</span> 拖曳環視 <span>／</span> <kbd>ESC</kbd> 釋放滑鼠</div>
+  </footer>
+  <div id="touch-controls"><div id="joystick" role="group" aria-label="移動搖桿：向上前進，向下後退，左右橫移"><span class="stick-knob"></span></div><span class="stick-label">移動 · 拖曳畫面轉向</span></div>
+  <dialog id="art-dialog">
+    <button class="close" aria-label="關閉作品">×</button>
+    <div class="art-image"><img id="detail-image" alt=""></div>
+    <div class="art-info"><h2 id="detail-title"></h2></div>
+  </dialog>
+  <dialog id="browse-dialog"><button class="close" aria-label="關閉作品清單">×</button><h2>作品清單</h2><div id="work-list"></div></dialog>
+  <dialog id="help-dialog"><button class="close" aria-label="關閉說明">×</button><h2>操作說明</h2><p><b>WASD / 方向鍵</b>　前後左右行走</p><p><b>滑鼠拖曳</b>　望向四周</p><p><b>點擊展室</b>　鎖定滑鼠，直接轉動視角</p><p><b>Esc</b>　釋放滑鼠；關閉作品視窗</p><p><b>點擊畫作 / E</b>　檢視原圖</p><p><b>作品 01 / 02</b>　直接前往入口附近作品</p><p class="small">畫作會按參觀距離逐區載入，離開後釋放顯示記憶體。<br>手機：拖曳畫面環視，左手推搖桿行走，右手拖曳轉向；推得越遠行得越快，放手即停。<br>如畫面不順暢，可切換至標準畫質。</p></dialog>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
+
